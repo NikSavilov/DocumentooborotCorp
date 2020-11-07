@@ -200,6 +200,9 @@
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>КонтактныеЛицаКонтрагентов</Catalog>
 			<Catalog>Файлы</Catalog>
+			<Catalog>ВнутренниеДокументы</Catalog>
+			<Catalog>ВидыДокументов</Catalog>
+			<Enum>ПеречислениеСогласован</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
