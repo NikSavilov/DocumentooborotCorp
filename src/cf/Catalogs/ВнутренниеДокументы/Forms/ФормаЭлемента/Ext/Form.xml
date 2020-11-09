@@ -3,6 +3,10 @@
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Код" id="1">
 			<DataPath>Объект.Code</DataPath>
@@ -15,6 +19,14 @@
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Вид" id="41">
+			<DataPath>Объект.Вид</DataPath>
+			<ContextMenu name="ВидКонтекстноеМеню" id="42"/>
+			<ExtendedTooltip name="ВидРасширеннаяПодсказка" id="43"/>
+			<Events>
+				<Event name="OnChange">ВидПриИзменении</Event>
+			</Events>
 		</InputField>
 		<InputField name="Организация" id="7">
 			<DataPath>Объект.Организация</DataPath>
