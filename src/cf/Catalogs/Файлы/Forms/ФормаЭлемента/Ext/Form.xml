@@ -10,6 +10,11 @@
 		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
 	</Events>
 	<ChildItems>
+		<InputField name="Содержание" id="18">
+			<DataPath>Объект.Содержание</DataPath>
+			<ContextMenu name="СодержаниеКонтекстноеМеню" id="19"/>
+			<ExtendedTooltip name="СодержаниеРасширеннаяПодсказка" id="20"/>
+		</InputField>
 		<InputField name="Изменен" id="15">
 			<DataPath>Объект.Изменен</DataPath>
 			<ContextMenu name="ИзмененКонтекстноеМеню" id="16"/>
