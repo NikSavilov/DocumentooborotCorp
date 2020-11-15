@@ -188,6 +188,9 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Справочники</Subsystem>
+			<Subsystem>РегистрыСведений</Subsystem>
+			<Subsystem>Системные</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>ОбычныйПользователь</Role>
@@ -211,6 +214,7 @@
 			<Catalog>ВидыДокументов</Catalog>
 			<Enum>ПеречислениеСогласован</Enum>
 			<DataProcessor>ЗапускОбновленияИндексаСодержимымФайлов</DataProcessor>
+			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
