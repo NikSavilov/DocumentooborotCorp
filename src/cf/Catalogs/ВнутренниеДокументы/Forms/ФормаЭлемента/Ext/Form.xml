@@ -46,6 +46,11 @@
 			<ContextMenu name="АвторКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="12"/>
 		</InputField>
+		<InputField name="Проект" id="50">
+			<DataPath>Объект.Проект</DataPath>
+			<ContextMenu name="ПроектКонтекстноеМеню" id="51"/>
+			<ExtendedTooltip name="ПроектРасширеннаяПодсказка" id="52"/>
+		</InputField>
 		<InputField name="Контрагент" id="13">
 			<DataPath>Объект.Контрагент</DataPath>
 			<EditMode>EnterOnInput</EditMode>
